@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fewwind.mydesign.test.TestActivity"
+    tools:showIn="@layout/activity_test">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_test_rv_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/main_fab_menu"
+        style="@style/FabMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        app:menu_colorNormal="#FF4081"
+        app:menu_colorPressed="#E91E63"
+        app:menu_colorRipple="#C2185B"
+        app:menu_labels_ellipsize="end"
+        app:menu_labels_singleLine="true"
+        android:layout_width="wrap_content">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_1"
+            style="@style/FabMenu.Buttons"
+            app:fab_label="Fragment ViewPager" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_2"
+            style="@style/FabMenu.Buttons"
+            android:src="@drawable/ic_history"
+            app:fab_label="启动知乎页面" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_3"
+            style="@style/FabMenu.Buttons"
+            android:src="@drawable/ic_history"
+            app:fab_label="启动悬浮view" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_4"
+            style="@style/FabMenu.Buttons"
+            android:src="@drawable/ic_history"
+            app:fab_label="自定义年龄选择" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/main_fab_5"
+            style="@style/FabMenu.Buttons"
+            android:src="@drawable/ic_history"
+            app:fab_label="显示内容视图" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

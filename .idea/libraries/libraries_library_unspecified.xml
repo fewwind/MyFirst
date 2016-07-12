@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libraries/library-unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Myapp/build/intermediates/exploded-aar/MyFirst/libraries@library/unspecified/res" />
+      <root url="jar://$PROJECT_DIR$/Myapp/build/intermediates/exploded-aar/MyFirst/libraries@library/unspecified/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

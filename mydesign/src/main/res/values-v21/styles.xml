@@ -1,0 +1,11 @@
+<resources>>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    </style>
+
+    <style name="AppThemeTransparent" parent="AppBaseTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

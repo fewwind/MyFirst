@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_syschan_card"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/bg_card"
+    android:clickable="true"
+    >
+
+
+    <ImageView
+        android:id="@+id/id_iv_syschan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_icon"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/id_tv_lable_sys"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="?attr/colorAccent"
+        android:gravity="center_horizontal|bottom"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:paddingBottom="4dp"
+        android:rotation="45"
+        android:singleLine="true"
+        android:text="own"
+        android:textAppearance="?android:textAppearanceLargeInverse"
+        android:textSize="12dp"
+        android:translationX="40dp"
+        android:translationY="-40dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:layout_below="@+id/id_iv_syschan"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/id_tv_syschan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+           />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Myapp" />
+            <option value="$PROJECT_DIR$/adtest" />
+            <option value="$PROJECT_DIR$/baseadapterhy" />
+            <option value="$PROJECT_DIR$/libraries/core" />
+            <option value="$PROJECT_DIR$/libraries/library" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mvpdemo" />
+            <option value="$PROJECT_DIR$/mydesign" />
+            <option value="$PROJECT_DIR$/viewhelperlistgridscroll" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Myapp" />
+            <option value="$PROJECT_DIR$/adtest" />
+            <option value="$PROJECT_DIR$/baseadapterhy" />
+            <option value="$PROJECT_DIR$/libraries/core" />
+            <option value="$PROJECT_DIR$/libraries/library" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mvpdemo" />
+            <option value="$PROJECT_DIR$/mydesign" />
+            <option value="$PROJECT_DIR$/viewhelperlistgridscroll" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

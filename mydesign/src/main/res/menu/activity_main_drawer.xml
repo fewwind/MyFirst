@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_chan"
+            android:icon="@drawable/music_circle_white"
+            android:title="我的频道" />
+        <item
+            android:id="@+id/nav_sys_chan"
+            android:icon="@drawable/library_music_white"
+            android:title="系统频道" />
+        <item
+            android:id="@+id/nav_cus_chan"
+            android:icon="@drawable/bookmark_music_white"
+            android:title="自定义频道" />
+        <item
+            android:id="@+id/nav_play_lists"
+            android:icon="@drawable/music_circle_white"
+            android:title="播放列表" />
+    </group>
+
+    <item android:title="分割线">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/settings_white"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="分享" />
+
+        </menu>
+    </item>
+
+</menu>

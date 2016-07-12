@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_msg"
+        android:orderInCategory="100"
+        android:title="msg"
+        android:icon="@drawable/ic_action_notify"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="分享"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_aboutme"
+        android:orderInCategory="100"
+        android:title="关于我"
+        app:showAsAction="never" />
+</menu>

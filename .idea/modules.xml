@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFirst.iml" filepath="$PROJECT_DIR$/MyFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myapp/Myapp.iml" filepath="$PROJECT_DIR$/Myapp/Myapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adtest/adtest.iml" filepath="$PROJECT_DIR$/adtest/adtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseadapterhy/baseadapterhy.iml" filepath="$PROJECT_DIR$/baseadapterhy/baseadapterhy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/core/libraries_core.iml" filepath="$PROJECT_DIR$/libraries/core/libraries_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/library/libraries_library.iml" filepath="$PROJECT_DIR$/libraries/library/libraries_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydesign/mydesign.iml" filepath="$PROJECT_DIR$/mydesign/mydesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewhelperlistgridscroll/viewhelperlistgridscroll.iml" filepath="$PROJECT_DIR$/viewhelperlistgridscroll/viewhelperlistgridscroll.iml" />
+    </modules>
+  </component>
+</project>

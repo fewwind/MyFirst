@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/id_layout_item"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/id_iv_play_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="80dp"
+        android:layout_toRightOf="@id/id_iv_play_list"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/id_tv_name_play_list"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="title"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/id_tv_singer_play_list"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_below="@id/id_tv_title_channel"
+            android:gravity="center_vertical"
+
+            android:layout_weight="1"
+            android:text="title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/id_iv_playlist_more"
+        android:layout_width="?listPreferredItemHeight"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_overflow_dark"
+
+        />
+
+    <ImageView
+        android:id="@+id/id_iv_isplaying_playlist"
+        android:layout_width="?listPreferredItemHeight"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/id_iv_playlist_more"
+        android:scaleType="center"
+        android:src="@drawable/music_note"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_scrool"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bigkoo.convenientbanner.ConvenientBanner
+            android:id="@+id/id_banner_first"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:canLoop="true" />
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="签证办理"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recycl_hori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        <incarmedia.com.viewhelperlistgridscroll.view.CircleLoadingView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            ></incarmedia.com.viewhelperlistgridscroll.view.CircleLoadingView>
+
+        <ListView
+            android:id="@+id/id_lv_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            ></ListView>
+
+        <incarmedia.com.viewhelperlistgridscroll.view.MyGridView
+            android:id="@+id/id_gv_scrool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:columnWidth="100dp"
+            android:numColumns="auto_fit"></incarmedia.com.viewhelperlistgridscroll.view.MyGridView>
+
+    </LinearLayout>
+
+
+</ScrollView>

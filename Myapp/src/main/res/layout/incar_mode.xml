@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.fewwind.myfirst.view.ModeIncarVIew
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_incar_mode"
+android:layout_width="360dp"
+android:layout_height="match_parent"
+android:layout_gravity="left"
+android:clickable="true"></com.example.fewwind.myfirst.view.ModeIncarVIew>

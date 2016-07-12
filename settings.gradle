@@ -1,0 +1,3 @@
+include ':Myapp', ':mydesign', ':library', ':viewhelperlistgridscroll', ':mvpdemo', ':adtest', ':baseadapterhy'
+include ':libraries/library'
+include ':libraries/core'

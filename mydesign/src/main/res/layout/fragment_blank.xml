@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_test_frag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_circle"></TextView>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="15dp"
+            android:id="@+id/id_test_rv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+        <Button
+            android:id="@+id/id_test_btn_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_appbar"
+            android:text="填充父窗体的dialog" />
+
+        <Button
+            android:id="@+id/id_test_btn_dialog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_appbar"
+            android:text="任意窗体的dialog" />
+
+        <Button
+            android:id="@+id/id_test_btn_dialog2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_notify"
+            android:layout_below="@+id/id_appbar"
+            android:text="自定义的dialog" />
+
+        <ImageView
+            android:id="@+id/id_test_btn_dialog3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_notify"
+            android:layout_below="@+id/id_appbar"
+            android:text="填充父窗体的dialog" />
+    </LinearLayout>
+</RelativeLayout>
